@@ -1,0 +1,461 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Cloud based organization",
+      "id": 1,
+      "attr": {
+        "position": [
+          -79,
+          -24,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Azure Active Directory",
+          "id": 2,
+          "ideas": {
+            "1": {
+              "title": "Initial setup",
+              "id": 3,
+              "ideas": {
+                "1": {
+                  "title": "Add users",
+                  "id": 6,
+                  "ideas": {
+                    "1": {
+                      "title": "Create Groups",
+                      "id": 40,
+                      "attr": {
+                        "note": {
+                          "index": 5,
+                          "text": "Create security groups with users in the domain for access control and policy enforcement."
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "note": {
+                      "index": 4,
+                      "text": "Create an Admin user for administrating AD and GP. Add some normal users."
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "note": {
+                  "index": 3,
+                  "text": "Create the domain and do any other initial setup to get the domain up and ready to configure."
+                }
+              }
+            },
+            "2": {
+              "title": "Research",
+              "id": 4,
+              "attr": {
+                "note": {
+                  "index": 5,
+                  "text": "Research using and implementing Azure AD. Become familiar with basic and necessary functions."
+                },
+                "position": [
+                  179,
+                  7,
+                  2
+                ]
+              }
+            },
+            "3": {
+              "title": "Join computers to domain",
+              "id": 7,
+              "attr": {
+                "position": [
+                  172,
+                  80,
+                  3
+                ],
+                "note": {
+                  "index": 7,
+                  "text": "Login with Azure AD account on PC to join the domain. Test connectivity and GP if implimented."
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              183,
+              -123,
+              2
+            ],
+            "note": {
+              "index": 2,
+              "text": "Create a domain through Azure AD, set up with users, and join computers to the domain."
+            }
+          }
+        },
+        "2": {
+          "title": "File Sharing",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "Research OneDrive/SharePoint",
+              "id": 15,
+              "ideas": {
+                "1": {
+                  "title": "Decide on one or the other",
+                  "id": 16,
+                  "ideas": {
+                    "1": {
+                      "title": "OneDrive",
+                      "id": 17,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FF99CC"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "SharePoint",
+                      "id": 18,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FF99CC"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF99CC"
+                    },
+                    "note": {
+                      "index": 10,
+                      "text": "Based on research, decide which service to use as the main file sharing service for the organiztion"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "note": {
+                  "index": 9,
+                  "text": "Research implementation of OneDrive or Sharepoint into Azure AD and group policy"
+                }
+              }
+            }
+          },
+          "attr": {
+            "note": {
+              "index": 8,
+              "text": "Implement file sharing and mapped drives into the organization with cloud service, either OneDrive or SharePoint."
+            },
+            "position": [
+              176,
+              123,
+              4
+            ]
+          }
+        },
+        "3": {
+          "title": "Intune",
+          "id": 41,
+          "attr": {
+            "position": [
+              172,
+              300,
+              5
+            ],
+            "style": {
+              "backgroundColor": "#FF6600"
+            },
+            "note": {
+              "index": 13,
+              "text": "Potentially take out Group Policy altogether and use intune instead. Research must be done beforehand to evaluate if this is feasible."
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Research",
+              "id": 42,
+              "ideas": {
+                "1": {
+                  "title": "Replacement for GP?",
+                  "id": 43,
+                  "attr": {
+                    "note": {
+                      "index": 15,
+                      "text": "After just scratching the surface while researching Intune it appears that this could potentially be a complete replacement for group policy in my Azure AD environment. Intune does a lot of access control and user/computer configuration already. Intune also is more reliable than GP for actually working with computers that aren't on a traditional domain."
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Creating mapped drives",
+                  "id": 44,
+                  "attr": {
+                    "note": {
+                      "index": 16,
+                      "text": "Research if and how mapped drives can be made using Intune."
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Access control using Intune",
+                  "id": 45,
+                  "attr": {
+                    "note": {
+                      "index": 17,
+                      "text": "Look into access control and how to implement it to a windows system using intune and Azure AD users."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "-1": {
+          "title": "Group Policy",
+          "id": 10,
+          "ideas": {
+            "1": {
+              "title": "Research",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "Implementation into Azure AD",
+                  "id": 11,
+                  "ideas": {},
+                  "attr": {
+                    "note": {
+                      "index": 15,
+                      "text": "Research how to implement group policy into an Azure domain and what resources are needed."
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Mapped drives pointing to OneDrive or SharePoint",
+                  "id": 13,
+                  "ideas": {
+                    "1": {
+                      "title": "Access Control",
+                      "id": 32,
+                      "attr": {
+                        "note": {
+                          "index": 17,
+                          "text": "Manage access to folders and drives for certain users on the domain."
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF6600"
+                    },
+                    "note": {
+                      "index": 16,
+                      "text": "Create GPOs to map drives to user's computers. Research how to map OneDrive or SharePoint directories with GP."
+                    }
+                  }
+                },
+                "3": {
+                  "title": "Virtualized Windows Server Core?",
+                  "id": 19,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#800080",
+                      "text": {
+                        "color": "#FFFFFF"
+                      }
+                    },
+                    "note": {
+                      "index": 18,
+                      "text": "Need to determine if a server is necessary through research."
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Join to Azure Domain",
+                      "id": 30,
+                      "ideas": {
+                        "1": {
+                          "title": "Install Group Policy Management",
+                          "id": 31,
+                          "attr": {
+                            "note": {
+                              "index": 20,
+                              "text": "Install Group Policy Role on the server so that it can be managed"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "note": {
+                          "index": 19,
+                          "text": "Join the server to the Azure domain so it can push GP to users and computers."
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "attr": {
+            "note": {
+              "index": 13,
+              "text": "Implement Group Policy into Azure Active Directory Domain"
+            },
+            "style": {
+              "backgroundColor": "#FF6600"
+            },
+            "position": [
+              179,
+              -154,
+              3
+            ]
+          }
+        },
+        "-2": {
+          "title": "Secure Virtual Workstations",
+          "id": 20,
+          "ideas": {
+            "2": {
+              "title": "Research Azure VM deployment",
+              "id": 22,
+              "ideas": {},
+              "attr": {
+                "note": {
+                  "index": 22,
+                  "text": "Research creating VMs in Azure. Research access control to the VMs and the virtual LAN."
+                }
+              }
+            },
+            "3": {
+              "title": "Virtual Azure LAN",
+              "id": 37,
+              "ideas": {
+                "1": {
+                  "title": "Create Virtual Machines",
+                  "id": 24,
+                  "ideas": {
+                    "1": {
+                      "title": "Initial Configuration",
+                      "id": 26,
+                      "ideas": {
+                        "1": {
+                          "title": "Add to Virtual LAN",
+                          "id": 29,
+                          "attr": {
+                            "note": {
+                              "index": 26,
+                              "text": "Add the workstations to the virtual LAN so they can access the web server."
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "note": {
+                          "index": 25,
+                          "text": "Spin up VMs, configure windows, configure networking in Azure."
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Manage Access To VMs",
+                      "id": 28,
+                      "attr": {
+                        "position": [
+                          191,
+                          37,
+                          2
+                        ],
+                        "note": {
+                          "index": 27,
+                          "text": "Manage who can access the VMs using Azure"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Virtual Web Server",
+                      "id": 33,
+                      "ideas": {
+                        "1": {
+                          "title": "Add to Virtual LAN",
+                          "id": 34,
+                          "ideas": {
+                            "1": {
+                              "title": "Manage Access to Web Server",
+                              "id": 35,
+                              "attr": {
+                                "note": {
+                                  "index": 29,
+                                  "text": "Manage access to only be allowed to certain users and only from Azure virtual LAN."
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "note": {
+                              "index": 29,
+                              "text": "Add the webserver to the virtual LAN so it's accessible from other VMs"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "note": {
+                          "index": 28,
+                          "text": "Create a webserver in Azure for access control testing/proof of concept."
+                        },
+                        "position": [
+                          180,
+                          88,
+                          1
+                        ]
+                      }
+                    }
+                  },
+                  "attr": {
+                    "position": [
+                      138,
+                      23,
+                      1
+                    ],
+                    "note": {
+                      "index": 24,
+                      "text": "Create one or two Windows virtual machines for use as Secure workstations"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Manage access",
+                  "id": 38,
+                  "attr": {
+                    "note": {
+                      "index": 31,
+                      "text": "Manage access to the virtual LAN with firewall rules or other methods."
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "note": {
+                  "index": 23,
+                  "text": "Create a virtual LAN in Azure that the workstations and webserver will be on."
+                }
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              158,
+              138,
+              1
+            ]
+          }
+        }
+      }
+    }
+  },
+  "title": "Cloud based organization",
+  "links": []
+}
