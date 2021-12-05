@@ -1,4 +1,4 @@
-## Welcome to Brian Anderson's Capstone wiki, content can be accessed from the links below or from the [Wiki](https://github.com/brian-anderson01/Capstone/wiki/)!
+## Welcome to Brian Anderson's Capstone repository, content can be accessed from the links below or from the [Wiki](https://github.com/brian-anderson01/Capstone/wiki/)!
 
 * [Potential Topic List](https://github.com/brian-anderson01/Capstone/wiki/Potential-Topic-List)
 * [Project References](https://github.com/brian-anderson01/Capstone/wiki/Project-References)
