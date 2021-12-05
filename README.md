@@ -1,12 +1,11 @@
-# Welcome to Brian's Capstone Repository
+## Welcome to Brian Anderson's Capstone wiki, content can be accessed from the sidebar or from the links below!
 
-### To access Wiki section click [here](https://github.com/brian-anderson01/Capstone/wiki) or choose from the pages below.
----
 * [Potential Topic List](https://github.com/brian-anderson01/Capstone/wiki/Potential-Topic-List)
 * [Project References](https://github.com/brian-anderson01/Capstone/wiki/Project-References)
 * [Topic Decomposition](https://github.com/brian-anderson01/Capstone/wiki/Topic-Decomposition)
 * [Abstract, Problem, and Purpose](https://github.com/brian-anderson01/Capstone/wiki/Abstract,-Problem,-and-Purpose)
 * [Background and History](https://github.com/brian-anderson01/Capstone/wiki/Background-and-History)
+* [Table of Dependencies](https://github.com/brian-anderson01/Capstone/wiki/Table-of-Dependencies)
 ---
 * [Design Project 1 Outline](https://github.com/brian-anderson01/Capstone/wiki/Design-Project-1-Outline)
   * [Kanban Board](https://github.com/brian-anderson01/Capstone/projects/1)
