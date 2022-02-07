@@ -6,6 +6,7 @@
 * [Abstract, Problem, and Purpose](https://github.com/brian-anderson01/Capstone/wiki/Abstract,-Problem,-and-Purpose)
 * [Background and History](https://github.com/brian-anderson01/Capstone/wiki/Background-and-History)
 * [Table of Dependencies](https://github.com/brian-anderson01/Capstone/wiki/Table-of-Dependencies)
+* [Weekly Reflections](https://github.com/brian-anderson01/Capstone/wiki/Weekly-Reflections)
 ---
 * [Design Project 1 Outline](https://github.com/brian-anderson01/Capstone/wiki/Design-Project-1-Outline)
   * [Kanban Board](https://github.com/brian-anderson01/Capstone/projects/1)
@@ -25,3 +26,8 @@
     * [Creating and configuring an Azure VM](https://github.com/brian-anderson01/Capstone/wiki/Creating-and-configuring-an-Azure-VM)
     * [Secure Environment Setup and Hardening](https://github.com/brian-anderson01/Capstone/wiki/Secure-Environment-Setup-and-Hardening)
 ---
+* [Sprint 1 Outline](https://github.com/brian-anderson01/Capstone/wiki/Sprint-1-Outline)
+  * [Kanban Board](https://github.com/brian-anderson01/Capstone/projects/4)
+  * [Milestone Tasks](https://github.com/brian-anderson01/Capstone/milestone/4)
+  * Sprint 1 Documentation:
+    * [Setting up Azure AD Connect](https://github.com/brian-anderson01/Capstone/wiki/Setting-up-Azure-AD-Connect)
