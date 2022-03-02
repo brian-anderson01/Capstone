@@ -9,7 +9,6 @@ If ($vpnadded -ne $null){
 }
 
 Else {
-    Write-Host "installing vpn"
     [xml]$EAPXml = Get-Content -Path C:\eapconfig.xml
 
     Add-VpnConnection -Name $connection_name -ServerAddress $server_address -TunnelType "Sstp" -EncryptionLevel "Required" -AuthenticationMethod Eap -EapConfigXmlStream $EAPXml -SplitTunneling -Force -RememberCredential -AllUserConnection
