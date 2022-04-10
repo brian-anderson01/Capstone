@@ -31,3 +31,23 @@
   * [Milestone Tasks](https://github.com/brian-anderson01/Capstone/milestone/4)
   * Sprint 1 Documentation:
     * [Setting up Azure AD Connect](https://github.com/brian-anderson01/Capstone/wiki/Setting-up-Azure-AD-Connect)
+    * [Setting up Intune auto enrollment using Group Policy](https://github.com/brian-anderson01/Capstone/wiki/Setting-up-Intune-auto-enrollment-using-Group-Policy)
+---
+* [Sprint 2 Outline](https://github.com/brian-anderson01/Capstone/wiki/Sprint-2-Outline)
+  * [Kanban Board](https://github.com/brian-anderson01/Capstone/projects/4)
+  * [Milestone Tasks](https://github.com/brian-anderson01/Capstone/milestone/5)
+  * Sprint 2 Documentation:
+    * [Enable Hybrid AD Authentication for Azure Files](https://github.com/brian-anderson01/Capstone/wiki/Enable-Hybrid-AD-Authentication-for-Azure-Files)
+    * [Setting up Certificate Services and Intune Certificate Connector](https://github.com/brian-anderson01/Capstone/wiki/Setting-up-Certificate-Services-and-Intune-Certificate-Connector)
+    * [Deploy an Azure VPN with Intune](https://github.com/brian-anderson01/Capstone/wiki/Deploying-an-EAP-VPN-with-Intune)
+---
+* [Sprint 3 Outline](https://github.com/brian-anderson01/Capstone/wiki/Sprint-3-Outline)
+  * [Kanban Board](https://github.com/brian-anderson01/Capstone/projects/4)
+  * [Milestone Tasks](https://github.com/brian-anderson01/Capstone/milestone/6)
+  * Sprint 3 Documentation:
+    * [Setting up Autopilot to join Hybrid Domain](https://github.com/brian-anderson01/Capstone/wiki/Setting-up-Autopilot-to-join-Hybrid-Domain)
+---
+* [Sprint 4 Outline](https://github.com/brian-anderson01/Capstone/wiki/Sprint-4-Outline)
+  * [Kanban Board](https://github.com/brian-anderson01/Capstone/projects/4)
+  * [Milestone Tasks](https://github.com/brian-anderson01/Capstone/milestone/7)
+  * Sprint 4 Documentation:
