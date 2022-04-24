@@ -16,7 +16,6 @@ Add-Content -Path $ScriptLogFilePath -Value ((Get-Date).ToString() + ": " + "Run
 
 $connectTestResult = Test-NetConnection -ComputerName azfss.file.core.windows.net -Port 445
 if ($connectTestResult.TcpTestSucceeded) {
-    cmd.exe /C "cmdkey /add:`"azfss.file.core.windows.net`" /user:`"localhost\azfss`" /pass:`"LgaZrvYKUdZGBhge1B6d2Y/8Uqi+TVLJwuCVDrSBwDCK1pxOcdtYKThU+jE3MVmGMxly3jCmboAZ+ASt5dlwIQ==`""
     New-PSDrive -Name K -PSProvider FileSystem -Root "\\azfss.file.core.windows.net\share1" -Persist -Scope Global
 }
 
