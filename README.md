@@ -51,3 +51,5 @@
   * [Kanban Board](https://github.com/brian-anderson01/Capstone/projects/4)
   * [Milestone Tasks](https://github.com/brian-anderson01/Capstone/milestone/7)
   * Sprint 4 Documentation:
+    * [Setting up Azure Monitoring Agent for log and metric collection](https://github.com/brian-anderson01/Capstone/wiki/Setting-up-Azure-Monitoring-Agent-for-log-and-metric-collection)
+    * [Searching and visualizing Azure logs](https://github.com/brian-anderson01/Capstone/wiki/Searching-and-visualizing-Azure-logs)
